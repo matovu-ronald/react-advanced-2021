@@ -3,6 +3,7 @@ import ArrayExample from "./components/useState/ArrayExample";
 import ObjectExample from "./components/useState/ObjectExample";
 
 import "./App.css";
+import CounterExample from "./components/useState/CounterExample";
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
       {/* –––––– useState Example –––––– */}
       {/* <ErrorExample /> */}
       {/* <ArrayExample /> */}
-      <ObjectExample />
+      {/* <ObjectExample /> */}
+      <CounterExample />
     </div>
   );
 }
