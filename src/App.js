@@ -1,11 +1,13 @@
 import ErrorExample from "./components/useState/ErrorExample";
 
 import "./App.css";
+import ArrayExample from "./components/useState/ArrayExample";
 
 function App() {
   return (
     <div className="container">
-      <ErrorExample />
+      {/* <ErrorExample /> */}
+      <ArrayExample />
     </div>
   );
 }
