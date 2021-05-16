@@ -7,6 +7,7 @@ import CounterExample from "./components/useState/CounterExample";
 import UpdateTitleExample from "./components/useEffect/UpdateTitleExample";
 import CleanUpExample from "./components/useEffect/CleanUpExample";
 import FetchDataExample from "./components/useEffect/FetchDataExample";
+import FetchUserExample from "./components/conditionalRendering/FetchUserExample";
 
 function App() {
   return (
@@ -19,7 +20,9 @@ function App() {
       {/* –––––– useEffect Examples –––––– */}
       {/* <UpdateTitleExample /> */}
       {/* <CleanUpExample /> */}
-      <FetchDataExample />
+      {/* <FetchDataExample /> */}
+      {/* –––––– Conditional Rendering Examples –––––– */}
+      <FetchUserExample />
     </div>
   );
 }
