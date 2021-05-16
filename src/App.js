@@ -4,15 +4,20 @@ import ObjectExample from "./components/useState/ObjectExample";
 
 import "./App.css";
 import CounterExample from "./components/useState/CounterExample";
+import UpdateTitleExample from "./components/useEffect/UpdateTitleExample";
+import CleanUpExample from "./components/useEffect/CleanUpExample";
 
 function App() {
   return (
     <div className="container">
-      {/* –––––– useState Example –––––– */}
+      {/* –––––– useState Examples –––––– */}
       {/* <ErrorExample /> */}
       {/* <ArrayExample /> */}
       {/* <ObjectExample /> */}
-      <CounterExample />
+      {/* <CounterExample /> */}
+      {/* –––––– useEffect Examples –––––– */}
+      {/* <UpdateTitleExample /> */}
+      <CleanUpExample />
     </div>
   );
 }
