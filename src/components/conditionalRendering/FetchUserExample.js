@@ -10,14 +10,22 @@ const FetchUserExample = () => {
   useEffect(() => {
     setIsLoading(true);
     fetch(url)
-      .then((response) => response.json())
+      .then((response) => {
+        if (response.status >= 200 && response.status <= 299) {
+          return response.json();
+        } else {
+          setIsLoading(false);
+          setIsError(true);
+          throw new Error(response.statusText);
+        }
+      })
       .then((user) => {
         setUser(user);
         setIsLoading(false);
       })
       .catch((error) => {
         setIsError(true);
-        console.log(error);
+        console.log(error.statusText);
       });
   }, []);
 
