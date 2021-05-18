@@ -11,6 +11,7 @@ import FetchUserExample from "./components/conditionalRendering/FetchUserExample
 import ShortCircuitTenaryExample from "./components/conditionalRendering/ShortCircuitTenaryExample";
 import ControlledInputsExample from "./components/forms/ControlledInputsExample";
 import MultipleInputs from "./components/forms/MultipleInputs";
+import UncontrolledInputs from "./components/useRef/UncontrolledInputs";
 
 function App() {
   return (
@@ -29,7 +30,10 @@ function App() {
       {/* <ShortCircuitTenaryExample /> */}
       {/* –––––– Forms –––––– */}
       {/* <ControlledInputsExample /> */}
-      <MultipleInputs />
+      {/* <MultipleInputs /> */}
+      {/* –––––– useRef –––––– */}
+      <UncontrolledInputs />
+      {/* –––––– useReducer –––––– */}
     </div>
   );
 }
