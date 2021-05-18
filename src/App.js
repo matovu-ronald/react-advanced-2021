@@ -9,6 +9,7 @@ import CleanUpExample from "./components/useEffect/CleanUpExample";
 import FetchDataExample from "./components/useEffect/FetchDataExample";
 import FetchUserExample from "./components/conditionalRendering/FetchUserExample";
 import ShortCircuitTenaryExample from "./components/conditionalRendering/ShortCircuitTenaryExample";
+import ControlledInputsExample from "./components/forms/ControlledInputsExample";
 
 function App() {
   return (
@@ -24,7 +25,9 @@ function App() {
       {/* <FetchDataExample /> */}
       {/* –––––– Conditional Rendering Examples –––––– */}
       {/* <FetchUserExample /> */}
-      <ShortCircuitTenaryExample />
+      {/* <ShortCircuitTenaryExample /> */}
+      {/* –––––– Forms –––––– */}
+      <ControlledInputsExample />
     </div>
   );
 }
