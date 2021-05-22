@@ -12,6 +12,7 @@ import ShortCircuitTenaryExample from "./components/conditionalRendering/ShortCi
 import ControlledInputsExample from "./components/forms/ControlledInputsExample";
 import MultipleInputs from "./components/forms/MultipleInputs";
 import UncontrolledInputs from "./components/useRef/UncontrolledInputs";
+import Index from "./components/useReducer/Index";
 
 function App() {
   return (
@@ -32,8 +33,9 @@ function App() {
       {/* <ControlledInputsExample /> */}
       {/* <MultipleInputs /> */}
       {/* –––––– useRef –––––– */}
-      <UncontrolledInputs />
+      {/* <UncontrolledInputs /> */}
       {/* –––––– useReducer –––––– */}
+      <Index />
     </div>
   );
 }
