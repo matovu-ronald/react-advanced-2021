@@ -13,6 +13,7 @@ import ControlledInputsExample from "./components/forms/ControlledInputsExample"
 import MultipleInputs from "./components/forms/MultipleInputs";
 import UncontrolledInputs from "./components/useRef/UncontrolledInputs";
 import Index from "./components/useReducer/Index";
+import PropDrillingExample from "./components/propDrilling/PropDrillingExample";
 
 function App() {
   return (
@@ -35,7 +36,9 @@ function App() {
       {/* –––––– useRef –––––– */}
       {/* <UncontrolledInputs /> */}
       {/* –––––– useReducer –––––– */}
-      <Index />
+      {/* <Index /> */}
+      {/* –––––– propDilling –––––– */}
+      <PropDrillingExample />
     </div>
   );
 }
